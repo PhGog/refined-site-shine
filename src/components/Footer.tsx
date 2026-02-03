@@ -21,11 +21,15 @@ export const Footer = () => (
         <div>
           <h4 className="font-serif text-lg mb-4 text-foreground">Contato Direto</h4>
           <ul className="space-y-3 font-sans font-light text-sm text-foreground-muted">
-            <li className="flex items-center gap-2 hover:text-primary transition-colors duration-300 cursor-pointer">
-              <Mail size={14} className="text-primary" /> contato@adhoc.com
+            <li className="flex items-center gap-2 hover:text-primary transition-colors duration-300">
+              <a href="mailto:adhocintelectual@gmail.com" className="flex items-center gap-2">
+                <Mail size={14} className="text-primary" /> adhocintelectual@gmail.com
+              </a>
             </li>
-            <li className="flex items-center gap-2 hover:text-primary transition-colors duration-300 cursor-pointer">
-              <Phone size={14} className="text-primary" /> (11) 99999-9999
+            <li className="flex items-center gap-2 hover:text-primary transition-colors duration-300">
+              <a href="https://api.whatsapp.com/send/?phone=5543991216509&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                <Phone size={14} className="text-primary" /> (43) 99121-6509
+              </a>
             </li>
           </ul>
         </div>
@@ -33,7 +37,9 @@ export const Footer = () => (
           <h4 className="font-serif text-lg mb-4 text-foreground">Social</h4>
           <div className="flex gap-4">
             <a 
-              href="#" 
+              href="https://www.instagram.com/adhoc_intelectual?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-border-subtle flex items-center justify-center hover:border-primary hover:text-primary transition-all duration-300 hover:scale-110"
               aria-label="Instagram"
             >

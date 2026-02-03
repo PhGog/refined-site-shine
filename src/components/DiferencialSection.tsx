@@ -2,7 +2,7 @@ import { Shield, CheckCircle, XCircle, ArrowRight } from 'lucide-react';
 import { FadeIn } from './FadeIn';
 import { Button } from './Button';
 
-const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=43996629153&text&type=phone_number&app_absent=0";
+const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=5543991216509&text&type=phone_number&app_absent=0";
 
 export const DiferencialSection = () => (
   <section id="diferenciacao" className="py-24 bg-background-deep">

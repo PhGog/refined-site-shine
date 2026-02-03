@@ -2,7 +2,7 @@ import { ChevronDown } from 'lucide-react';
 import { FadeIn } from './FadeIn';
 import { Button } from './Button';
 
-const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=43996629153&text&type=phone_number&app_absent=0";
+const WHATSAPP_LINK = "https://api.whatsapp.com/send/?phone=5543991216509&text&type=phone_number&app_absent=0";
 
 export const HeroSection = () => (
   <header id="hero" className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
